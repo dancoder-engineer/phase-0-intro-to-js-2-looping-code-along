@@ -1,0 +1,40 @@
+
+> js-looping-and-iteration-looping-code-along@0.1.0 test
+> mocha --timeout 5000 -R mocha-multi --reporter-options spec=-,json=.results.json
+
+
+
+  index.js
+    writeCards()
+      1) returns an array of thank you messages for each name provided to the function
+    countDown()
+      2) invokes console.log once for each number, counting down from the number provided to zero
+      3) logs each number when counting down, starting from the number provided
+
+
+  0 passing (187ms)
+  3 failing
+
+  1) index.js
+       writeCards()
+         returns an array of thank you messages for each name provided to the function:
+     ReferenceError: writeCards is not defined
+      at Context.<anonymous> (test/indexTest.js:17:7)
+      at processImmediate (node:internal/timers:464:21)
+
+  2) index.js
+       countDown()
+         invokes console.log once for each number, counting down from the number provided to zero:
+     ReferenceError: countDown is not defined
+      at Context.<anonymous> (test/indexTest.js:28:7)
+      at processImmediate (node:internal/timers:464:21)
+
+  3) index.js
+       countDown()
+         logs each number when counting down, starting from the number provided:
+     ReferenceError: countDown is not defined
+      at Context.<anonymous> (test/indexTest.js:34:7)
+      at processImmediate (node:internal/timers:464:21)
+
+
+
